@@ -1,0 +1,17 @@
+
+
+table {
+    @apply mx-auto border-4 border-blue-800 px-10 py-16 w-[80%] bg-blue-500;
+}
+
+td, th {
+    @apply border-2 p-2 border-blue-800 text-center text-gray-900 [&:nth-child(1)]:bg-sky-600;
+}
+
+thead{
+    @apply  [&:nth-child(1)]:bg-sky-600
+}
+
+img {
+    @apply w-12 mx-auto;
+}
